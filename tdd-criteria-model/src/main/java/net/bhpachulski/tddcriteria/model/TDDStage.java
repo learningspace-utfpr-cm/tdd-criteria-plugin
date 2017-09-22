@@ -21,7 +21,7 @@ public enum TDDStage {
         }
     }
     
-    public static TDDStage getStageByString (String s) {
+    public static TDDStage getStageByString(String s) {
         return tddStage.get(s);
     }
     

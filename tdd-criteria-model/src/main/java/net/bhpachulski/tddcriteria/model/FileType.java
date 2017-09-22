@@ -37,4 +37,8 @@ public enum FileType {
         return fileType;
     }
     
+    public static FileType getFileType(Integer id) {
+        return fileType.get(id);
+    }
+    
 }
