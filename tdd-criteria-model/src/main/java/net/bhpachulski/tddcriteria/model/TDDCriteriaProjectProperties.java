@@ -13,6 +13,9 @@ public class TDDCriteriaProjectProperties {
 	private Date firstIteration;
 	private Date secondIteration;
 	private Date thirdIteration;
+	private Date fourthIteration;
+	private Date fifthIteration;
+	private Date sixthIteration;
 
 	private String ip = "localhost";
 
@@ -79,4 +82,29 @@ public class TDDCriteriaProjectProperties {
 	public void setIp(String ip) {
 		this.ip = ip;
 	}
+
+	public Date getFourthIteration() {
+		return fourthIteration;
+	}
+
+	public void setFourthIteration(Date fourthIteration) {
+		this.fourthIteration = fourthIteration;
+	}
+
+	public Date getFifthIteration() {
+		return fifthIteration;
+	}
+
+	public void setFifthIteration(Date fifthIteration) {
+		this.fifthIteration = fifthIteration;
+	}
+
+	public Date getSixthIteration() {
+		return sixthIteration;
+	}
+
+	public void setSixthIteration(Date sixthIteration) {
+		this.sixthIteration = sixthIteration;
+	}
+
 }
