@@ -1,5 +1,6 @@
 **/target/**
 **/lib/**
+**/tddCriteriaDB/**
 .classpath
 .project
 .settings
